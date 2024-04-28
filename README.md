@@ -31,3 +31,20 @@ Creacion de Base de Datos por medio de archivo `script.sql` en carpeta ParqueoAp
 
 Abrir Microsoft Visual Studio 2022 la solución `WebApp.sln` en carpeta ParqueoApp\WebApp y Start. La solucion esta configurada para que se ejecuten los proyectos WebApp.Api y WebApp.Web en paralero en el cual WebApp.Api iniciara el servicio API Rest desde la integracion con IIS Express utilizando la siguiente url y puerto configurado (http://localhost:52397/) y el proyecto WebApp.Web iniciara el proyecto ASP MVC como interfaz de usuario cliente para el consumo del proyecto API Rest.
 
+## Screenshots
+
+### Inicio
+
+![App Screenshot](https://github.com/lvasquez/ParqueoApp/blob/main/Screenshots/Inicio.png)
+
+### Listado
+
+![App Screenshot](https://github.com/lvasquez/ParqueoApp/blob/main/Screenshots/listado.png)
+
+### Ingreso
+
+![App Screenshot](https://github.com/lvasquez/ParqueoApp/blob/main/Screenshots/Ingreso.png)
+
+### Salida
+
+![App Screenshot](https://github.com/lvasquez/ParqueoApp/blob/main/Screenshots/Salida.png)
