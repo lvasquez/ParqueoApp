@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Ingreso";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="form-horizontal">
+    <h4>Ingreso</h4>
+    <hr />
+
+    <form action="/Vehiculo/Ingreso" method="post">
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Placa</label>
+            <div class="col-md-10">
+                <input type="text" id="placa" name="placa" class="form-control" required />
+            </div>
+        </div>
+        <br />
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="oficial" name="oficial" value="true">
+            <label class="form-check-label" for="oficial">
+                Oficial
+            </label>
+        </div>
+
+
+        <br />
+        <button type="submit" class="btn btn-primary">Ingreso</button>
+    </form>
+
+</div>
+<br />
+<div>
+    @Html.ActionLink("Listado", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

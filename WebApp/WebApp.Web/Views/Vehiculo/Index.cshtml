@@ -1,0 +1,68 @@
+﻿@model IEnumerable<WebApp.Domain.VEHICULO>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Listado</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div>
+                @Html.ActionLink("Ingreso", "Ingreso", "Vehiculo", new { area = "" }, new { @class = "btn btn-primary btn-lg active" })
+                @Html.ActionLink("Salida", "Salida", "Vehiculo", new { area = "" }, new { @class = "btn btn-primary btn-lg active" })
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.rowid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.placa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.oficial)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_entrada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_salida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tarifa)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.rowid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.oficial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha_entrada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha_salida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tarifa)
+            </td>
+        </tr>
+    }
+
+</table>

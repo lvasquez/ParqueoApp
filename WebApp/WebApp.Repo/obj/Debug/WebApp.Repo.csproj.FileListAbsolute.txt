@@ -1,0 +1,15 @@
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\WebApp.Repo.dll.config
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\WebApp.Repo.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\WebApp.Repo.pdb
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\EntityFramework.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\WebApp.Domain.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\WebApp.Domain.pdb
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\WebApp.Domain.dll.config
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\EntityFramework.xml
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\obj\Debug\WebApp.Repo.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\obj\Debug\WebApp.Repo.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\obj\Debug\WebApp.R.C8DE53D8.Up2Date
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\obj\Debug\WebApp.Repo.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Repo\obj\Debug\WebApp.Repo.pdb

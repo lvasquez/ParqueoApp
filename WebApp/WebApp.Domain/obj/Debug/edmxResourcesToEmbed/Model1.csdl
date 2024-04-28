@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EstacionamientoDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="VEHICULO">
+    <Key>
+      <PropertyRef Name="rowid" />
+    </Key>
+    <Property Name="rowid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="placa" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="oficial" Type="Boolean" Nullable="false" />
+    <Property Name="fecha_entrada" Type="DateTime" Precision="7" Nullable="false" />
+    <Property Name="fecha_salida" Type="DateTime" Precision="7" />
+    <Property Name="tarifa" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EstacionamientoDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="VEHICULOS" EntityType="Self.VEHICULO" />
+  </EntityContainer>
+</Schema>

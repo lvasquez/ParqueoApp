@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EstacionamientoDBModelStoreContainer" CdmEntityContainer="EstacionamientoDBEntities">
+    <EntitySetMapping Name="VEHICULOS">
+      <EntityTypeMapping TypeName="EstacionamientoDBModel.VEHICULO">
+        <MappingFragment StoreEntitySet="VEHICULOS">
+          <ScalarProperty Name="tarifa" ColumnName="tarifa" />
+          <ScalarProperty Name="rowid" ColumnName="rowid" />
+          <ScalarProperty Name="placa" ColumnName="placa" />
+          <ScalarProperty Name="oficial" ColumnName="oficial" />
+          <ScalarProperty Name="fecha_entrada" ColumnName="fecha_entrada" />
+          <ScalarProperty Name="fecha_salida" ColumnName="fecha_salida" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

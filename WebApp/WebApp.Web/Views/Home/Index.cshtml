@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h2 id="title">Estacionamiento</h2>
+    </section>
+    <br />
+    <br />
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div>
+                @Html.ActionLink("Ingreso", "Ingreso", "Vehiculo", new { area = "" }, new { @class = "btn btn-primary btn-lg active" })
+                @Html.ActionLink("Salida", "Salida", "Vehiculo", new { area = "" }, new { @class = "btn btn-primary btn-lg active" })
+                @Html.ActionLink("Listado", "Index", "Vehiculo", new { area = "" }, new { @class = "btn btn-primary btn-lg active" })
+            </div>
+        </div>
+    </div>
+
+</main>

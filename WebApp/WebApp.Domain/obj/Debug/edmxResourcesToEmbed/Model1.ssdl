@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EstacionamientoDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="VEHICULOS">
+    <Key>
+      <PropertyRef Name="rowid" />
+    </Key>
+    <Property Name="rowid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="placa" Type="varchar" MaxLength="20" />
+    <Property Name="oficial" Type="bit" Nullable="false" />
+    <Property Name="fecha_entrada" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="fecha_salida" Type="datetime2" Precision="7" />
+    <Property Name="tarifa" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EstacionamientoDBModelStoreContainer">
+    <EntitySet Name="VEHICULOS" EntityType="Self.VEHICULOS" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

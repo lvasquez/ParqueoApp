@@ -1,0 +1,12 @@
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\bin\Debug\WebApp.Domain.dll.config
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\bin\Debug\WebApp.Domain.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\bin\Debug\WebApp.Domain.pdb
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\bin\Debug\EntityFramework.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\bin\Debug\EntityFramework.xml
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\obj\Debug\WebApp.Domain.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\obj\Debug\WebApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\obj\Debug\WebApp.D.4C560EE5.Up2Date
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\obj\Debug\WebApp.Domain.dll
+C:\Users\pc\source\repos\WebApp\WebApp.Domain\obj\Debug\WebApp.Domain.pdb
