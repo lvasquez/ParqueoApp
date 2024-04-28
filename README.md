@@ -33,18 +33,26 @@ Abrir Microsoft Visual Studio 2022 la solución `WebApp.sln` en carpeta ParqueoA
 
 ## Screenshots
 
-### Inicio
+### Pantalla de Inicio
+
+Pantalla de inicio de la aplicación.
 
 ![App Screenshot](https://github.com/lvasquez/ParqueoApp/blob/main/Screenshots/Inicio.png)
 
-### Listado
+### Pantalla de Listado
+
+Se despliega el listado de todos los vehiculos ingresados con la Tarifa actual si aplica o no.
 
 ![App Screenshot](https://github.com/lvasquez/ParqueoApp/blob/main/Screenshots/listado.png)
 
-### Ingreso
+### Pantalla de Ingreso
+
+Se ingresa unicamente la Placa y si es un vehiculo Oficial o no.
 
 ![App Screenshot](https://github.com/lvasquez/ParqueoApp/blob/main/Screenshots/Ingreso.png)
 
-### Salida
+### Pantalla de Salida
+
+Se ingresa unicamente el numero de Placa y se calculo de forma automatica y en tiempo real la Tarifa la cual es un campo de lectura unicamente.
 
 ![App Screenshot](https://github.com/lvasquez/ParqueoApp/blob/main/Screenshots/Salida.png)
