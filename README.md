@@ -30,3 +30,4 @@ Proyecto tipo ASP MVC para la creacion de la interfaz de usuario y consumo de lo
 Creacion de Base de Datos por medio de archivo `script.sql` en carpeta ParqueoApp\Database
 
 Abrir Microsoft Visual Studio 2022 la solución `WebApp.sln` en carpeta ParqueoApp\WebApp y Start. La solucion esta configurada para que se ejecuten los proyectos WebApp.Api y WebApp.Web en paralero en el cual WebApp.Api iniciara el servicio API Rest desde la integracion con IIS Express utilizando la siguiente url y puerto configurado (http://localhost:52397/) y el proyecto WebApp.Web iniciara el proyecto ASP MVC como interfaz de usuario cliente para el consumo del proyecto API Rest.
+
